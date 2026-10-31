@@ -1,7 +1,7 @@
-# 👥 Workforce Attrition & Retention Analytics (Power BI & DAX)
+# 👥 Workforce Attrition & Retention Analytics (Power BI, SQL & DAX)
 
 ### 📌 Project Overview
-Architected a diagnostic HR analytics interface in Power BI to evaluate employee turnover drivers, compensation bands, overtime burnout patterns, and department-level retention metrics.
+Architected a diagnostic HR analytics interface in Power BI to evaluate employee turnover drivers, compensation bands, overtime burnout patterns, and department-level retention metrics. Backed by custom backend SQL querying to extract and structure raw employee datasets.
 
 ---
 
@@ -11,7 +11,8 @@ Architected a diagnostic HR analytics interface in Power BI to evaluate employee
 ---
 
 ### ⚙️ Technical Architecture & Workflow
-* **Power Query (ETL):** Cleaned and transformed raw HR employee records, creating standardized age brackets, tenure bands, and salary tiers.
+* **SQL Database Extraction:** Queried relational employee datasets using custom SQL scripts (`HR Employee Attrition.sql`) to pull clean base records, handle constraints, and structure tables for BI ingestion.
+* **Power Query (ETL):** Cleaned and transformed raw HR records further within Power Query, creating standardized age brackets, tenure bands, and salary tiers.
 * **Data Modeling:** Structured relational tables linking employee demographics, job roles, and attrition outcomes.
 * **Explicit DAX Measures:** Built custom DAX measures for Total Headcount, Active Employees, Attrition Count, and Attrition Rate % (`DIVIDE`, `CALCULATE`).
 * **Interactive UI/UX:** Implemented demographic slicers, conditional formatting rules, and horizontal breakdown charts to isolate high-risk roles.
