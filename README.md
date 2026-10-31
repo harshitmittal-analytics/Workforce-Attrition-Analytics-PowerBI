@@ -21,4 +21,5 @@ Architected a diagnostic HR analytics interface in Power BI to evaluate employee
 ### 📂 Repository Files
 * `Workforce_Attrition_Dashboard.pbix` – Full Power BI Desktop report
 * `dashboard_overview.png` – High-resolution dashboard UI snapshot
+* `HR Employee Attrition.sql` – Backend SQL extraction and query script
 * `HR Employee Attrition.csv` – Source HR dataset
